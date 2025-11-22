@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+  
+  /* Cores */
+  --cor-principal:  #597dc5 ;
+  --cor-secundaria: #6EB5A9 ;
+  --cor-fundo: #E6CCA4;
+  --cor-neutra: #F3F4F3;
+  --cor-neutra2: #0ABB77;
+  --cor-texto: #028552ec;
+
+  /* Fontes */
+  --fonte-primaria: "Montserrat";
+  --fonte-secundaria: "Lato";
+
+}
+
+*{
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box ;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/*______Nav______________________________________________________________________________________________________________________________________________*/
+
+
+
+nav{
+
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.486);
+  background-color: var(--cor-neutra);
+  z-index: 20;
+
+
+}
+
+nav #navcx{
+
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  /* .1  */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--cor-neutra);
+ 
+
+}
+
+nav #navcx #logonavcx{
+
+  width: 200px;
+  height: 97%;
+  /* border: 1px solid brown;  */
+  overflow: hidden;
+
+}
+
+nav #navcx #logonavcx #logonav{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.4);
+
+}
+
+nav #navcx #menunav{
+
+  height: 100%; 
+  width: 50%;  
+  /* border: 1px solid brown;  */
+  /* display: none;  */
+
+}
+
+nav #navcx #menunav ul{
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+}
+
+nav #navcx #menunav ul li .btsnav{
+
+  font-family: var(--fonte-primaria);
+  font-weight: bold;
+  color: var(--cor-principal);
+  font-size: 0.9vw;
+  text-decoration: none;
+
+}
+
+nav #navcx #menunav ul li .btsnav:hover{
+
+  text-decoration: underline;
+
+}
+
+nav #navcx #menunav ul li #btsnavdf{
+
+  text-decoration: none;
+  background-color: var(--cor-neutra2);
+  color: var(--cor-neutra);
+  padding: 0.7vw 1vw;
+  border-radius: 0.8vw;
+  font-weight: bold;
+  font-family: var(--fonte-primaria);
+  font-size: 0.9vw;
+
+}
+
+nav #navcx #menunav ul li #btsnavdf:hover{
+
+  background-color: var(--cor-texto);
+
+}
+
+nav #navcx #menuburguer{
+
+  color: var(--cor-principal);
+  font-size: 25px;
+  font-family: var(--fonte-primaria);
+  display: none;  
+
+}
+
+nav #navcx #menuX{
+
+  color: var(--cor-principal);
+  font-size: 25px;
+  font-family: var(--fonte-primaria);
+  display: none;  
+
+}
+
+
+/*______Header______________________________________________________________________________________________________________________________________________*/
+
+
+header{
+
+  width: 100%;
+  /* height: 500px; */
+  background: url(../imgs/fundo\ \(2\).jpg) no-repeat;
+  background-position: right top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 65px;
+
+}
+
+header #headercx{
+
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding-right: 2vw;
+  /* border:  1px solid red;  */
+
+}
+
+header #headercx #cx1imgh{
+  
+  height: 100%;
+  width: 49%;
+   /* border:  3px solid rgb(153, 0, 255);   */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: end;
+  align-items: end;
+
+}
+
+header #headercx #cx1imgh #img1{
+
+  width: 100%;
+  /* border:  1px solid rgb(17, 255, 0);    */
+  display: none;
+ 
+  
+}
+
+header #headercx #cx1imgh #img2{
+
+  width: 100%;
+  /* border:  1px solid rgb(17, 255, 0);    */
+ 
+  
+}
+
+header #headercx #cx2texth{
+
+  width: 30%;
+  height: 100%;
+   /* border:  1px solid rgb(119, 0, 255);    */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4vw;
+  padding-right: 4vw;
+
+}
+
+header #headercx #cx2texth #imglogocx2h{
+
+  width: 9vw;
+  height: 9vw;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+
+header #headercx #cx2texth #imglogocx2h img{
+                            
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover;
+  transform: scale(1.7); */
+  object-fit: cover;
+  scale: 1.7;
+  z-index: 0;
+
+}
+
+header #headercx #cx2texth h1{
+
+  color: var(--cor-neutra);
+  font-weight: bold;
+  margin: 10px 0px;
+  font-size: 1.8vw;
+  font-family: var(--fonte-primaria);
+  text-align: center;
+
+
+}
+
+header #headercx #cx2texth span{
+
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-principal);
+  font-weight: bolder;
+  font-size: 1.8vw;
+
+}
+
+header #headercx #cx2texth p{
+
+  color: var(--cor-neutra);
+  font-size: 1.5vw;
+  font-family: var(--fonte-secundaria);
+  margin: 5px 0px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+header #headercx #cx2texth a{
+
+  text-decoration: none;
+  font-family: var(--fonte-primaria);
+  color: var(--cor-neutra);
+  font-weight: bold;
+  font-size: 1.2vw;
+  padding: 10px 14px;
+  margin-top: 15px;
+  background-color: var(--cor-neutra2);
+  border-radius: 10px;
+
+}
+
+header #headercx #cx2texth a:hover{
+
+   background-color: var(--cor-texto);
+
+}

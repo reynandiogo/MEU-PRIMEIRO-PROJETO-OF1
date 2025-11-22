@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+  
+  /* Cores */
+  --cor-principal:  #2B3B5C ;
+  --cor-secundaria: #6EB5A9 ;
+  --cor-fundo: #E6CCA4;
+  --cor-neutra: #F3F4F3;
+  --cor-neutra2: #0ABB77;
+  --cor-texto: #028552ec;
+
+  /* Fontes */
+  --fonte-primaria: "Montserrat";
+  --fonte-secundaria: "Lato";
+
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+    /*_____________nav_____________*/
+
+        nav{
+
+            height: 60px;
+         
+        }
+
+        nav #navcx{
+
+            width: 95%;
+            
+
+        }
+        nav #navcx #logonavcx{
+
+            width: 150px;
+
+        }
+
+        nav #navcx #menunav{
+
+            position: fixed;
+            height: calc(100dvh - 62px);
+            width: 50%;
+            bottom: 0;
+            right: 0;
+            /* transition: transform 0.3s ease, opacity 0.3s ease; */
+            transform: translateX(100%);
+            opacity: 0;
+            pointer-events: none;
+                    
+
+        }
+
+        nav #navcx #menunav.ativada {
+
+            transform: translateX(0);
+            opacity: 1;
+            pointer-events: all;
+
+        }
+
+        nav #navcx #menunav ul{
+
+            background-color: rgba(0, 0, 0, 0.733);
+            flex-flow: column nowrap;
+            justify-content: space-evenly; 
+            align-items: center;
+            overflow-y: scroll;
+            
+
+
+        }
+
+        nav #navcx #menunav ul::-webkit-scrollbar {
+  
+            display: none;
+
+        }
+
+
+        nav #navcx #menunav ul li{
+
+            margin: 3vw 0px; 
+
+        }
+
+        nav #navcx #menunav ul li .btsnav{
+
+            color: var(--cor-neutra2);
+            font-size: 3.6vw ;
+
+        }
+
+        nav #navcx #menunav ul li #btsnavdf{
+
+            font-size: 3.6vw ;
+            padding: 1.5vw 2.5vw;
+
+        }
+
+        nav #navcx #menuburguer{
+
+            display: block;
+            color: var(--cor-principal);
+
+        }
+
+
+        nav #navcx #menuX{
+
+            display: none;
+            font-weight: 100;
+            margin-right: 10px;
+           
+
+        }
+        
+
+        
+
+    /*_____________header_____________*/
+
+    header{
+
+        padding-top: 60px;
+        background-image: linear-gradient(to top, var(--cor-principal), var(--cor-texto));
+
+    }
+
+    header #headercx{
+
+        width: 100%;
+
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 0;
+        
+
+    }
+
+    
+    header #headercx #cx1imgh{
+
+        width: 75%;
+        padding: 20px;
+
+    }
+
+    header #headercx #cx1imgh #img1{
+
+        display: block;
+
+    }
+
+    header #headercx #cx1imgh #img2{
+
+        display: none;
+
+    }
+
+    header #headercx #cx2texth{
+
+        padding: 0;
+        width: 90%;
+
+    }
+
+    header #headercx #cx2texth #imglogocx2h{
+
+        display: none;
+
+    }
+
+
+
+    header #headercx #cx2texth h1{
+
+        font-weight: bold;
+        margin: 20px 0px;
+        font-size: 6vw;
+
+
+    }
+
+    header #headercx #cx2texth span{
+
+        font-family: var(--fonte-primaria);
+        color: var(--cor-neutra);
+        font-weight: bold;
+        font-size: 5vw;
+
+    }
+
+    header #headercx #cx2texth p{
+
+        color: var(--cor-neutra);
+        font-size: 4vw;
+        font-family: var(--fonte-secundaria);
+        font-weight: 300;
+
+    }
+
+    header #headercx #cx2texth a{
+
+      
+        font-size: 4.3vw;
+        padding: 13px 17px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+
+    }
+ 
+
+}
+
+
+
+
+
+/* Small tablets */
+@media (min-width: 701px) and (max-width: 980px) {
+
+    /*_________________nav__________________*/
+
+        nav #navcx #logonavcx{
+
+            width: 170px;
+
+        }
+
+        nav #navcx #menunav{
+
+            width: 60%;
+
+        }
+
+        nav #navcx #menunav ul li .btsnav{
+
+            font-size: 1.2vw;
+
+        }
+        nav #navcx #menunav ul li #btsnavdf{
+
+            font-size: 1.2vw;
+
+        }
+
+    /*_________________header__________________*/
+    
+        header #headercx #cx1imgh{
+
+            width: 55%;
+
+        }
+
+}
+
+
+@media (min-width: 1500px) {
+
+    /*_________________nav__________________*/
+
+
+        nav{
+
+            height: 5vw;
+
+        }
+
+        nav #navcx #logonavcx{
+
+            width: 16%;
+
+        }
+
+
+    /*_________________header__________________*/
+
+        header{
+
+            padding-top: 4vw;
+
+        }
+        
+        header #headercx #cx2texth a{
+
+            padding: 1vw 1.5vw;
+            margin-top: 2vw;
+            border-radius: 1.3vw;
+
+        }
+        
+}

@@ -1,0 +1,22 @@
+Azul Marinho (Principal):
+
+ #2B3B5C 
+
+Títulos, Corpo do Texto, Footer.
+
+
+Verde-Água (Destaque/CTA):
+
+ #6EB5A9 
+
+Botões de Chamada para Ação (CTAs), Destaques e Ícones.
+
+
+Verde Lótus: #8BB89C
+
+ Elementos gráficos secundários e backgrounds sutis.
+Amarelo Pálido/Bege:
+
+#E6CCA4 
+
+Linhas de divisão, bordas, ou fundos de caixas de depoimento.
