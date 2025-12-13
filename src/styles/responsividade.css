@@ -50,7 +50,7 @@
             width: 50%;
             bottom: 0;
             right: 0;
-            /* transition: transform 0.3s ease, opacity 0.3s ease; */
+            transition: transform 0.3s ease, opacity 0.3s ease;  
             transform: translateX(100%);
             opacity: 0;
             pointer-events: none;
@@ -109,6 +109,7 @@
 
             display: block;
             color: var(--cor-principal);
+            cursor: default;
 
         }
 
@@ -118,6 +119,7 @@
             display: none;
             font-weight: 100;
             margin-right: 10px;
+            cursor: default;
            
 
         }
@@ -131,6 +133,7 @@
 
         padding-top: 60px;
         background-image: linear-gradient(to top, var(--cor-principal), var(--cor-texto));
+        border-bottom: 4vw solid var(--cor-fundo);
 
     }
 
@@ -213,11 +216,293 @@
       
         font-size: 4.3vw;
         padding: 13px 17px;
-        margin-top: 15px;
-        margin-bottom: 30px;
+        margin-top: 18px;
+        margin-bottom: 14vw;
         border-radius: 10px;
 
     }
+
+    /*_________________main desafios__________________*/
+
+        main #maincx #desafios #h1-1n{
+
+            font-size: 4.7vw
+
+        }
+
+        main #maincx #desafios #h2-1n{
+
+            font-size: 1.9vw
+
+        }
+
+        main #maincx #desafios .p-1n{
+
+            font-size: 1.2vw;
+            width: 37%;
+
+        }
+
+        main #maincx #desafios #cardscx .cadcx{
+
+            width: 60%;
+            display: flex;
+            flex-flow: column nowrap;
+            aspect-ratio: 0/0;
+            box-shadow: 0.7vw 0.7vw 0.9vw var(--cor-texto);
+
+        }
+
+        main #maincx #desafios #cardscx .cadcx .imgcxcard{
+
+            width: 100%;
+            aspect-ratio: 1/0.8;
+            border-bottom: 0.2vw solid var(--cor-principal); 
+            border-right: none; 
+
+        }
+
+        main #maincx #desafios #cardscx .cadcx .imgcxcard img{
+
+            transform: scale(1.1);
+
+        }  
+
+        main #maincx #desafios #cardscx .cadcx .textcxcard{
+
+            width: 100%;
+            align-items: center;
+            /* border: 1px solid rgb(108, 165, 42); */
+            
+        }
+
+        main #maincx #desafios #cardscx .cadcx .textcxcard h2{ 
+
+
+            font-size: 3vw;
+            text-align: center;
+            margin: 4vw 0vw 2vw 0vw;
+            /* border: 1px solid rgb(165, 42, 118); */
+            
+        }
+
+        main #maincx #desafios #cardscx .cadcx .textcxcard p{ 
+
+            font-size: 1.9vw;
+            text-align: center;
+            margin: 2vw 0vw 7vw 0vw;
+            width: 80%;
+            /* border: 1px solid rgb(42, 165, 83); */
+       
+
+        }
+
+    /*_________________main sobremim__________________*/
+
+    main #maincx #sobremim{
+
+        aspect-ratio: 0/0;
+        border-top: 4vw solid var(--cor-fundo);
+        border-bottom: 4vw solid var(--cor-fundo);
+        background-image: url(../imgs/imgs-para-a-sessão-sobre/img-background-p\ \(1\).jpg);
+        background-size: cover;
+        background-position: bottom left;
+        background-attachment: fixed;
+
+    }
+
+    main #maincx #sobremim #sobremimcx{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx1{
+
+        flex-flow: column nowrap;
+        align-items: center;
+
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx1 #imgcx1{
+
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vw;
+        width: 100%;
+        
+
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx1 #imgcx1 #imglogocx1{
+
+        width: 40%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        border: 0.4vw solid var(--cor-fundo);
+        overflow: hidden;
+        padding: 0;
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx1 #imgcx1 #imglogocx1 img{
+                                    
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        scale: 1.7;
+        z-index: 0;
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx1 #text1cx {
+
+        padding: 0;
+        align-items: center;
+        width: 100%;
+
+    }    
+    main #maincx #sobremim #sobremimcx #cx1 #text1cx h1{
+
+        font-size: 5.1vw;
+        width: 90%;
+        text-align: center;
+        margin: 5vw;
+        text-shadow: 0vw 0vw 1vw black;
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx1 #text1cx p{
+
+        font-size: 2.5vw;
+        text-align: center;
+        width: 64%;
+        text-shadow: 0vw 0vw 2vw black;
+        font-weight: bolder;
+
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx1 #imgcx1 #img1{
+
+        display: none;
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx2{
+
+        flex-flow: column nowrap;
+        align-items: center;
+        position: static;
+        padding-top: 8vw;
+        padding-bottom: 15vw;
+       
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx2 .cardssobre{
+
+        width: 60.5%;
+        aspect-ratio: 1/1;
+        border-radius: 1vw;
+        margin: 4vw;
+        /* border: 2px solid black; */ 
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx2 .cardssobre h1{
+
+        font-size: 3.5vw;
+        margin-bottom: 4vw;
+        width: 80%;
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx2 .cardssobre p{
+
+        font-size: 2.1vw;
+        width: 80%;
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx2 .cardssobre#cardmaior{
+
+        width: 60.5%;
+        z-index: 2;
+        
+    }
+
+
+    main #maincx #sobremim #sobremimcx #cx2 .cardssobre#cardmaior h1{
+
+        font-size: 3.5vw;
+        margin-bottom: 2.8vw;
+
+    }
+
+    main #maincx #sobremim #sobremimcx #cx2 .cardssobre#cardmaior p{
+
+        font-size: 2.2vw;
+
+    }
+            
+        
+
+
+    /*_________________main beneficios__________________*/    
+
+
+        main #maincx #beneficios{
+
+            padding-top: 10vw;
+
+        }
+
+        main #maincx #beneficios #beneficioscx #h1bn{
+
+            font-size: 4.7vw;
+            width: 60%;
+
+        }
+
+        main #maincx #beneficios #beneficioscx #h2bn{
+
+            font-size: 1.9vw;
+            width: 60%;
+
+        }
+        main #maincx #beneficios #beneficioscx #pbn{
+
+            font-size: 1.3vw;
+            width: 35%;
+
+        }
+
+        main #maincx #beneficios #beneficioscx #cardbenecx .cardsbene{ 
+
+            width: 40%;
+            margin: 0vw 1.7vw 4vw 1.7vw;
+            box-shadow: 0.7vw 0.6vw 0.9vw 0vw var(--cor-principal);
+
+        }
+
+        main #maincx #beneficios #beneficioscx #cardbenecx .cardsbene h1{
+
+            font-size: 2.2vw;
+            width: 91%;
+
+        }
+
+        main #maincx #beneficios #beneficioscx #cardbenecx .cardsbene p{
+
+            font-size: 1.8vw;
+            margin-bottom: 6.9vw;
+
+        }
  
 
 }
@@ -259,6 +544,76 @@
         header #headercx #cx1imgh{
 
             width: 55%;
+
+        }
+
+    /*_________________main desafios__________________*/
+
+        main #maincx #desafios #h1-1n{
+
+            font-size: 4.7vw
+
+        }
+
+        main #maincx #desafios #h2-1n{
+
+            font-size: 1.9vw
+
+        }
+
+        main #maincx #desafios .p-1n{
+
+            font-size: 1.2vw;
+            width: 37%;
+
+        }
+
+    /*_________________main sobremim__________________*/
+    
+        
+
+
+    /*_________________main beneficios__________________*/    
+
+
+        main #maincx #beneficios #beneficioscx #h1bn{
+
+            font-size: 4.7vw;
+            width: 60%;
+
+        }
+
+        main #maincx #beneficios #beneficioscx #h2bn{
+
+            font-size: 1.9vw;
+            width: 60%;
+
+        }
+        main #maincx #beneficios #beneficioscx #pbn{
+
+            font-size: 1.3vw;
+            width: 35%;
+
+        }
+
+        main #maincx #beneficios #beneficioscx #cardbenecx .cardsbene{ 
+
+            width: 30%;
+            margin: 0vw 1.7vw 4vw 1.7vw;
+
+        }
+
+        main #maincx #beneficios #beneficioscx #cardbenecx .cardsbene h1{
+
+            font-size: 2.1vw;
+            width: 94%;
+
+        }
+
+        main #maincx #beneficios #beneficioscx #cardbenecx .cardsbene p{
+
+            font-size: 1.4vw;
+            margin-bottom: 3.9vw;
 
         }
 

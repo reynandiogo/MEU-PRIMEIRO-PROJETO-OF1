@@ -39,7 +39,7 @@ nav{
   width: 100%;
   height: 65px;
   position: fixed;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.486);
+  box-shadow: 0vw 0vw 1vw 0vw rgb(0 0 0);
   background-color: var(--cor-neutra);
   z-index: 20;
 
@@ -166,6 +166,7 @@ header{
   background-size: cover;
   background-attachment: fixed;
   padding-top: 65px;
+  border-bottom: 2vw solid var(--cor-fundo);
 
 }
 
@@ -230,6 +231,7 @@ header #headercx #cx2texth #imglogocx2h{
   width: 9vw;
   height: 9vw;
   border-radius: 50%;
+  border: 0.4vw solid var(--cor-fundo);
   overflow: hidden;
 
 }
@@ -297,3 +299,490 @@ header #headercx #cx2texth a:hover{
    background-color: var(--cor-texto);
 
 }
+
+
+/*______main______________________________________________________________________________________________________________________________________________*/
+
+
+main{
+
+  width: 100%;
+  background-color: var(--cor-neutra);
+  margin: auto;
+
+}
+
+
+main #maincx{
+
+  width: 100%;
+  /* background-color: #6EB5A9; */
+  margin: auto;
+
+}
+
+/*________seção desafios______________________ */
+
+main #maincx #desafios{
+
+  width: 90%;
+  background-color: var(--cor-neutra);
+  margin: auto;
+  padding: 8vw 0vw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  /* margin-bottom: 300px; */
+
+}
+
+main #maincx #desafios #h1-1n{
+
+  text-align: center;
+  color: var(--cor-neutra2);
+  font-family: var(--fonte-primaria);
+  font-size: 4.1vw;
+  font-weight: bolder;
+  margin: 2vw 0vw 0.1vw 0vw;
+ 
+}
+
+main #maincx #desafios #h2-1n{
+
+  text-align: center;
+  color: var(--cor-principal);
+  font-family: var(--fonte-secundaria);
+  font-size: 1.7vw;
+  font-weight: 500;
+  margin: 0vw 0vw 0vw 0vw;
+ 
+}
+
+main #maincx #desafios .p-1n{
+
+  text-align: center;
+  color: var(--cor-principal);
+  font-family: var(--fonte-secundaria);
+  font-size: 1.05vw;
+  font-weight: 400;
+  margin: 1vw 0vw 6vw 0vw;
+  width: 40%;
+ 
+}
+
+main #maincx #desafios .p-2n{
+
+  text-align: center;
+  color: var(--cor-texto);
+  font-family: var(--fonte-secundaria);
+  font-size: 1.8vw;
+  font-weight: 400;
+  margin: 9vw 0vw 6vw 0vw;
+  width: 60%;
+ 
+}
+
+main #maincx #desafios #cardscx{
+
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  /* border: 1px solid rgb(165, 132, 42); */
+ 
+}
+
+main #maincx #desafios #cardscx .cadcx{
+
+  width: 80%;
+  display: flex;
+  flex-flow: row nowrap;
+  /* padding: 10px; */
+  border: 0.2vw solid var(--cor-principal);
+  border-radius: 2vw;
+  justify-content: space-between;
+  overflow: hidden;
+  box-shadow: 0.31vw 0.31vw 0.25vw var(--cor-texto);
+  margin: 3vw 0px;
+  aspect-ratio: 4/1.5;
+
+
+}
+
+main #maincx #desafios #cardscx .cadcx .imgcxcard{
+
+  width: 40%;
+  aspect-ratio: 1/0.9;
+  border-right: 0.2vw solid var(--cor-principal); 
+  overflow: hidden;
+  /* border-radius: 2vw; */
+
+}
+
+main #maincx #desafios #cardscx .cadcx .imgcxcard img{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.2);
+
+
+}  
+
+main #maincx #desafios #cardscx .cadcx .textcxcard{
+
+  width: 55%;
+  /* border: 1px solid rgb(108, 165, 42); */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  border-radius: 2vw;
+
+}
+
+main #maincx #desafios #cardscx .cadcx .textcxcard h2{ 
+
+
+  font-size: 2.5vw;
+  /* border: 1px solid rgb(165, 42, 118); */
+  font-family: var(--fonte-primaria);
+  color: var(--cor-neutra2);
+  font-weight: bold;
+  width: 87%;
+
+
+}
+
+main #maincx #desafios #cardscx .cadcx .textcxcard p{ 
+
+  font-size: 1.5vw;
+  /* border: 1px solid rgb(42, 165, 83); */
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-principal);
+  font-weight: 500;
+  width: 87%;
+  text-align: justify;
+
+
+}
+
+
+
+/*________seção sobre mim______________________ */
+
+
+
+main #maincx #sobremim{
+
+  background: linear-gradient( 45deg ,var(--cor-secundaria), var(--cor-neutra2))  center center no-repeat;
+  width: 100%;
+  aspect-ratio: 2.2/1;
+  /* margin-bottom: 300px; */
+  /* box-shadow: inset 0px 9px 18px 0px black; */
+  position:relative ;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  border-bottom: 2vw solid var(--cor-fundo);
+  border-top: 2vw solid var(--cor-fundo);
+ 
+}
+
+main #maincx #sobremim #sobremimcx{
+
+  width: 90%;
+  height: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  position: relative;
+
+}
+
+main #maincx #sobremim #sobremimcx #cx1{
+
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  z-index: 1;
+
+}
+
+main #maincx #sobremim #sobremimcx #cx1 #imgcx1{
+
+  width: 48%;
+  height: 100%;
+  /* border: 2px solid gray;  */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
+
+main #maincx #sobremim #sobremimcx #cx1 #imgcx1 img{ 
+
+  width: 95%;
+  /* border: 2px solid rgb(1, 5, 255); */
+
+}
+
+main #maincx #sobremim #sobremimcx #cx1 #text1cx{
+
+  width: 51%;
+  height: 100%;
+  /* border: 2px solid rgb(255, 1, 234); */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-top: 4vw;
+  padding-right: 3vw;
+
+}
+main #maincx #sobremim #sobremimcx #cx1 #text1cx h1{
+
+  font-size: 3.1vw;
+  font-family: var(--fonte-primaria);
+  color: var(--cor-neutra);
+  text-align: right;
+  width:  100%;
+  font-weight: bolder;
+
+  /* border: 2px solid rgb(1, 5, 255);  */
+  margin: 1vw 0px;
+  
+
+}
+main #maincx #sobremim #sobremimcx #cx1 #text1cx p{
+
+  font-size: 0.7vw;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-neutra);
+  text-align: right;
+  font-weight: 400;
+  width: 89%;
+  /* border: 2px solid rgb(1, 5, 255);  */
+  margin: 1vw 0px;
+  
+
+}
+
+main #maincx #sobremim #sobremimcx #cx2{
+
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -30%;
+  z-index: 2;
+  /* border: 2px solid rgb(221, 7, 7); */
+  width: 98%;
+
+}
+
+main #maincx #sobremim #sobremimcx #cx2 .cardssobre{
+
+  width: 30.5%;
+  aspect-ratio: 1.2/1;
+  background-color: var(--cor-neutra);
+  box-shadow: 0vw -0.073vw 0.512vw 0.146vw #0000007d;
+  z-index: 1;
+  border-radius: 0.5vw;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid black; */ 
+
+}
+
+main #maincx #sobremim #sobremimcx #cx2 .cardssobre h1{
+
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: var(--fonte-primaria);
+  color: var(--cor-neutra2);
+  margin-bottom: 2vw;
+  width: 80%;
+
+}
+
+main #maincx #sobremim #sobremimcx #cx2 .cardssobre p{
+
+  text-align: center;
+  font-size: 0.8vw;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-principal);
+  width: 80%;
+  font-weight: bolder;
+
+}
+
+main #maincx #sobremim #sobremimcx #cx2 .cardssobre#cardmaior{
+
+  width: 34.5%;
+  z-index: 2;
+  
+}
+
+
+main #maincx #sobremim #sobremimcx #cx2 .cardssobre#cardmaior h1{
+
+  font-size: 2vw;
+  margin-bottom: 2.8vw;
+
+}
+
+main #maincx #sobremim #sobremimcx #cx2 .cardssobre#cardmaior p{
+
+  font-size: 1vw;
+
+}
+
+/*________beneficios______________________ */
+
+
+main #maincx #beneficios {
+
+  width: 100%;
+  /* aspect-ratio: 1.8/1; */
+  /* border:  2px solid red; */
+  padding-top: 30vw;
+
+}
+
+main #maincx #beneficios #beneficioscx{
+
+  width: 100%;
+  /* height: 100%; */
+  /* border:  2px solid blue; */
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  
+
+
+}
+
+main #maincx #beneficios #beneficioscx #h1bn{
+
+  text-align: center;
+  font-family: var(--fonte-primaria);
+  color: var(--cor-neutra2);
+  font-size: 4.1vw;
+  font-weight: bolder;
+  margin: 2vw 0vw 0.1vw 0vw;
+  width: 50%;
+
+}
+
+main #maincx #beneficios #beneficioscx #h2bn{
+
+  text-align: center;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-principal);
+  font-size: 1.7vw;
+  font-weight: 500;
+  margin: 0vw 0vw 0.7vw 0vw;
+  
+}
+
+main #maincx #beneficios #beneficioscx #pbn{
+
+  text-align: center;
+  color: var(--cor-principal);
+  font-family: var(--fonte-secundaria);
+  font-size: 1.05vw;
+  font-weight: 400;
+  margin: 0vw 0vw 7vw 0vw;
+  width: 30%;
+ 
+
+
+}
+
+main #maincx #beneficios #beneficioscx #cardbenecx{
+
+  width: 90%;
+  /* height: 80%; */
+  /* border:  2px solid blue; */
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 6vw 1.5vw;
+
+
+}
+
+main #maincx #beneficios #beneficioscx #cardbenecx .cardsbene{
+
+  width: 22%;
+  aspect-ratio: 1/1.9;
+  border: 0.14vw solid var(--cor-neutra2);
+  border-radius: 0.9vw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  box-shadow: 0.3vw 0.4vw 0.7vw 0vw var(--cor-principal);
+  margin: 0vw 1.4vw 4vw 1.4vw;
+  /* padding-top: 7vw; */
+
+}
+
+main #maincx #beneficios #beneficioscx #cardbenecx .cardsbene .imgcxbene{
+
+  width: 100%;
+  aspect-ratio: 1/0.9;
+  border-bottom: 0.14vw solid var(--cor-neutra2);
+  /* border-radius: 50%; */
+  overflow: hidden;
+  /* position: absolute;
+  top: -20%; */
+
+}
+
+main #maincx #beneficios #beneficioscx #cardbenecx .cardsbene .imgcxbene img{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(); 
+
+}
+
+main #maincx #beneficios #beneficioscx #cardbenecx .cardsbene h1{
+
+  color: var(--cor-neutra2);
+  text-align: center;
+  font-size: 1.8vw;
+  font-family: var(--fonte-primaria);
+  width: 95%;
+
+}
+
+main #maincx #beneficios #beneficioscx #cardbenecx .cardsbene p{
+
+  color: var(--cor-principal);
+  text-align: center;
+  width: 80%;
+  font-size: 0.9vw;
+  font-family: var(--fonte-secundaria);
+  margin-bottom: 2.9vw;
+
+}
+/*
+main #maincx #desafios{
+
+ 
+}*/
+
+/*______footer______________________________________________________________________________________________________________________________________________*/
