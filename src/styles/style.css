@@ -377,7 +377,7 @@ main #maincx #desafios .p-2n{
   font-family: var(--fonte-secundaria);
   font-size: 1.8vw;
   font-weight: 400;
-  margin: 9vw 0vw 6vw 0vw;
+  margin: 6vw 0vw 4vw 0vw;
   width: 60%;
  
 }
@@ -514,7 +514,7 @@ main #maincx #sobremim #sobremimcx #cx1 #imgcx1{
 
   width: 48%;
   height: 100%;
-  /* border: 2px solid gray;  */
+  /* border: 2px solid gray;   */
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
@@ -525,7 +525,13 @@ main #maincx #sobremim #sobremimcx #cx1 #imgcx1{
 main #maincx #sobremim #sobremimcx #cx1 #imgcx1 img{ 
 
   width: 95%;
-  /* border: 2px solid rgb(1, 5, 255); */
+  /* border: 2px solid rgb(1, 5, 255);  */
+
+}
+
+main #maincx #sobremim #sobremimcx #cx1 #imglogocx1{
+
+  display: none;
 
 }
 
@@ -651,7 +657,7 @@ main #maincx #beneficios {
   width: 100%;
   /* aspect-ratio: 1.8/1; */
   /* border:  2px solid red; */
-  padding-top: 30vw;
+  padding-top: 23vw;
 
 }
 
@@ -716,7 +722,7 @@ main #maincx #beneficios #beneficioscx #cardbenecx{
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-around;
-  padding: 6vw 1.5vw;
+  padding: 4vw 1.5vw;
 
 
 }
@@ -779,6 +785,427 @@ main #maincx #beneficios #beneficioscx #cardbenecx .cardsbene p{
   margin-bottom: 2.9vw;
 
 }
+
+main #maincx #beneficios #beneficioscx #texfbn{
+
+  font-size: 1.8vw;
+  /* border: 1px solid rgb(42, 165, 83); */
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-neutra2);
+  font-weight: 500;
+  width: 45%;
+  text-align: center;
+  margin: 4vw 0vw 9vw 0vw;
+
+}
+
+/*________biografia______________________ */
+
+main #maincx #biografia{
+
+  width: 100%;
+  /* padding: 20vw; */
+  background-image: url(../imgs/img-f/img-sobremin-tragetoria/background-sobre.jpg);
+  border-top: 2vw solid var(--cor-fundo);
+  border-bottom: 2vw solid var(--cor-fundo);
+  background-size: cover;
+  background-position: center bottom;
+  margin: 3vw 0vw 11vw 0vw;
+  display: flex;
+
+}
+
+main #maincx #biografia #biotextcx{
+
+  width: 54%;
+  /* border: 1px solid #ff0000; */
+  aspect-ratio: 2/1.6;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+main #maincx #biografia #bioimgcx{
+
+  width: 46%;
+  /* border: 1px solid red; */
+  aspect-ratio: 2/1.6;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+
+}
+
+main #maincx #biografia #bioimgcx img{
+
+  height: 90%;
+
+}
+
+main #maincx #biografia #biotextcx #biocadcx{
+
+  aspect-ratio: 3.6/5;
+  height: 85%;
+  background-color: rgba(255, 255, 255, 0.836);
+  border-radius: 2vw;
+  padding: 0.5vw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  box-shadow: 0.3vw 0.3vw 0vw 0vw var(--cor-principal);
+
+}
+
+main #maincx #biografia #biotextcx #biocadcx #textbio1{
+
+  width: 80%;
+  font-size: 1.4vw;
+  color: var(--cor-neutra2);
+  font-family: var(--fonte-primaria);
+  font-weight: 700;
+  margin-top: 1.5vw;
+
+}
+
+main #maincx #biografia #biotextcx #biocadcx #textbio2{
+
+  width: 80%;
+  font-size: 1vw;
+  color: var(--cor-principal);
+  font-family: var(--fonte-primaria);
+  font-weight: 600;
+  margin-top: 0.4vw;
+  margin-bottom: 2.1vw;
+
+}
+
+main #maincx #biografia #biotextcx #biocadcx ul{
+
+  width: 70%;
+  color: var(--cor-neutra2);
+  font-size: 1.2vw;
+  /* border: 1px solid blue; */
+
+}
+
+main #maincx #biografia #biotextcx #biocadcx ul li p{
+
+  font-size: 0.8vw;
+  color: var(--cor-principal);
+  font-family: var(--fonte-secundaria);
+  font-weight: 600;
+  margin-bottom: 1.2vw;
+
+
+}
+
+main #maincx #biografia #biotextcx #biocadcx #textbio3{
+
+  font-size: 0.73vw;
+  color: var(--cor-principal);
+  font-family: var(--fonte-secundaria);
+  font-weight: 500;
+  margin-bottom: 1.5vw;
+  width: 70%;
+  text-align: justify;
+
+
+}
+
+/*________depoimentos______________________ */
+
+main #maincx #depoimentos{
+
+  /* background-color: var(--cor-neutra); */
+  width: 100%;
+  /* aspect-ratio: 3/1; */
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+
+}
+
+main #maincx #depoimentos #title{
+
+  text-align: center;
+  font-family: var(--fonte-primaria);
+  color: var(--cor-neutra2);
+  font-size: 4.1vw;
+  font-weight: bolder;
+  margin: 2vw 0vw 0.1vw 0vw;
+  width: 50%;
+  
+}
+
+main #maincx #depoimentos #title2{
+
+  text-align: center;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-principal);
+  font-size: 1.7vw;
+  font-weight: 500;
+  margin: 0vw 0vw 0.3vw 0vw;
+
+}
+
+main #maincx #depoimentos #paragrafo{
+
+  text-align: center;
+  color: var(--cor-principal);
+  font-family: var(--fonte-secundaria);
+  font-size: 1.09vw;
+  font-weight: 400;
+  margin: 0vw 0vw 7vw 0vw;
+  width: 30%;
+
+}
+
+main #maincx #depoimentos #depoCaixa{
+
+  /* border: 1px solid rgb(208, 255, 0); */
+  padding: 5vw 0vw 5vw 7vw;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-x: scroll;
+
+}
+
+main #maincx #depoimentos #depoCaixa::-webkit-scrollbar {
+  
+  display: none;
+
+}
+
+main #maincx #depoimentos #depoCaixa .caddepo{
+
+  width: 28%;
+  aspect-ratio: 1/1;
+  background-color: var(--cor-neutra2);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-top: 3vw;
+  border-radius: 5%;
+  padding-bottom: 1vw;
+  box-shadow: 0.2vw 0.2vw 1.8vw 0vw var(--cor-principal);
+  margin-right: 8vw;
+  flex-shrink: 0;
+
+}
+
+main #maincx #depoimentos #depoCaixa .caddepo div{
+
+  width: 30%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 0.2vw;
+
+}
+main #maincx #depoimentos #depoCaixa .caddepo div img{
+
+  width: 100%;
+  height: 100%;
+  
+}
+
+main #maincx #depoimentos #depoCaixa .caddepo h1{
+
+  color: var(--cor-neutra);
+  font-family: var(--fonte-primaria);
+  font-weight: bold;
+  font-size: 1.5vw;
+
+}
+
+main #maincx #depoimentos #depoCaixa .caddepo h2{
+
+  color: var(--cor-principal);
+  font-family: var(--fonte-secundaria);
+  font-weight: 700;
+  font-size: 1.2vw;
+  
+}
+main #maincx #depoimentos #depoCaixa .caddepo p{
+
+  color: var(--cor-fundo);
+  font-family: var(--fonte-secundaria);
+  font-weight: 500;
+  font-size: 0.9vw;
+  text-align: center;
+  width: 70%;
+  margin-top: 1vw;
+  
+
+}
+
+main #maincx #depoimentos #paragrafo2{
+
+  font-size: 1.8vw;
+  /* border: 1px solid rgb(42, 165, 83); */
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-neutra2);
+  font-weight: 500;
+  width: 45%;
+  text-align: center;
+  margin: 7vw 0vw 9vw 0vw;
+
+}
+
+/*________localização______________________ */
+
+main #maincx #localizacao{
+
+  background:  linear-gradient(20deg, var(--cor-secundaria) 30%, var(--cor-neutra2));
+  width: 100%;
+  aspect-ratio: 1.1/1;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  border-top: 2vw solid var(--cor-fundo);
+  /* border-bottom: 2vw solid var(--cor-fundo); */
+  color: var(--cor-neutra);
+  font-family: var(--fonte-primaria);
+  margin: 5vw 0vw 0vw 0vw;
+
+}
+
+main #maincx #localizacao #local{
+
+  width: 80%;
+  aspect-ratio: 16/8;
+  border: 1vw solid var(--cor-fundo);
+  border-radius: 2vw;
+  overflow: hidden;
+  /* box-shadow: 0.7vw 0.7vw 2vw 0vw var(--cor-principal); */
+ 
+
+}
+
+main #maincx #localizacao #local iframe{
+
+  width: 101%;
+  aspect-ratio: 16/8.1;
+ 
+}
+
+main #maincx #localizacao #loc-icone{
+
+  margin: 10vw 0vw 0.9vw 0vw;
+  font-size: 10vw;
+
+}
+
+main #maincx #localizacao h1{
+
+  margin: 1vw 0vw 0vw 0vw;
+  font-size: 1.9vw;
+
+}
+
+main #maincx #localizacao p{
+
+  margin: 0.5vw 0vw 2vw 0vw;
+  font-size: 1.5vw;
+  width: 35%;
+  text-align: center;
+
+}
+
+/*________cta______________________ */
+
+main #maincx #cta{
+
+  padding-top: 4vw;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  box-shadow: inset 0vw 0vw 0vw 8vw var(--cor-secundaria)
+  /* background-image: linear-gradient(to top, #0abb777c, transparent 20%); */
+  /* background-attachment: fixed; */
+ 
+} 
+
+main #maincx #cta #cta-cx1{
+
+  width: 50%;
+  aspect-ratio: 1/1;
+  /* border: 1px solid purple; */
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  justify-content: center;
+  color: var(--cor-principal);
+
+ 
+}
+
+main #maincx #cta #cta-cx1 #cta-cx-n1{
+
+  width: 55%;
+
+}
+
+main #maincx #cta #cta-cx1 #cta-cx-n1 p{
+
+  font-size: 0.9vw;
+  font-family: var(--fonte-secundaria);
+  /* background-color: rgba(0, 0, 0, 0.048); */
+
+} 
+
+main #maincx #cta #cta-cx1 #cta-cx-n1 a{
+
+  margin-top: 4vw;
+  font-size: 1.9vw;
+  background-color: var(--cor-neutra2);
+  color: var(--cor-neutra);
+  padding: 1vw 2vw;
+  font-family: var(--fonte-primaria);
+  text-decoration: none;
+  font-weight: bolder;
+  border-radius: 1vw;
+  display: inline-block;
+
+}
+
+main #maincx #cta #cta-cx1 #cta-cx-n1 a:hover{
+
+  background-color: var(--cor-texto);
+
+}
+
+main #maincx #cta #cta-cx2{
+
+  width: 50%;
+  aspect-ratio: 1/1;
+  /* border: 1px solid purple; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+ 
+}
+
+main #maincx #cta #cta-cx2 img{
+
+  /* border: 1px solid purple; */
+  height: 90%;
+  filter: drop-shadow(0.6vw 0.6vw 0.1vw rgba(0, 0, 0, 0.24));
+
+} 
+
+
 /*
 main #maincx #desafios{
 
@@ -786,3 +1213,16 @@ main #maincx #desafios{
 }*/
 
 /*______footer______________________________________________________________________________________________________________________________________________*/
+
+
+footer{
+
+  width: 100%;
+  aspect-ratio: 2.5/1;
+  /* background-image: linear-gradient(to top, var(--cor-principal), var(--cor-texto)); */
+  /* border-top: 2vw solid var(--cor-fundo); */
+  background-color: var(--cor-secundaria
+  );
+  /* border-bottom: 2vw solid var(--cor-fundo); */
+
+}

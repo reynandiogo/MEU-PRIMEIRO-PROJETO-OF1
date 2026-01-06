@@ -346,6 +346,7 @@
         border: 0.4vw solid var(--cor-fundo);
         overflow: hidden;
         padding: 0;
+        display: flex;
 
     }
 
